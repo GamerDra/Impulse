@@ -8,3 +8,5 @@ However, when we ran the same model with LSGAN, we reached an average loss funct
 
 Here is an example plot of one of the generated samples (Normal_data):
 ![Graph](https://github.com/GamerDra/Impulse/blob/main/10_generation/Figure_1.png)
+
+We can use FID to check the similarity of the generated data with the original data.The Fréchet Inception Distance (FID) measures the similarity between real and generated data distributions. It computes the difference between their feature means and covariances, extracted using a pretrained model. A lower FID indicates higher similarity, meaning the generated data closely resembles the real data in quality and diversity.
