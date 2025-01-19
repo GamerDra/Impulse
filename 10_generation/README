@@ -7,4 +7,4 @@ We trained the Generator and Discriminator for 200 epochs, and we got a average 
 However, when we ran the same model with LSGAN, we reached an average loss function of  D_loss = 0.2467 and G_loss: 0.1282.
 
 Here is an example plot of one of the generated samples (Normal_data):
-![Graph](./Figure_1.png)
+![Graph](https://github.com/GamerDra/Impulse/blob/main/10_generation/Figure_1.png)
