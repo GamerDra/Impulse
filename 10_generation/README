@@ -1,0 +1,10 @@
+# Task 10: Generation
+
+To generate fake samples, we used GAN. A **Generative Adversarial Network (GAN)** consists of two neural networks, a Generator and a Discriminator, trained simultaneously. The Generator creates fake data to mimic real data, while the Discriminator differentiates between real and fake data. The goal is to improve both until the Generator produces highly realistic data.
+
+We trained the Generator and Discriminator for 200 epochs, and we got a average loss function of D_loss = 1.1007 and G_loss: 1.4758.
+
+However, when we ran the same model with LSGAN, we reached an average loss function of  D_loss = 0.2467 and G_loss: 0.1282.
+
+Here is an example plot of one of the generated samples (Normal_data):
+![Graph](./Figure_1.png)
